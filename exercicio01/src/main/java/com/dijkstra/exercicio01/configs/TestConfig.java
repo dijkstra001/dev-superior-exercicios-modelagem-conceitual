@@ -15,7 +15,7 @@ import com.dijkstra.exercicio01.repositories.ArtistRepository;
 public class TestConfig implements CommandLineRunner{
 	
 	@Autowired
-	ArtistRepository artistRepository;
+	private ArtistRepository artistRepository;
 	
 	@Override
 	public void run(String... args) throws Exception {
