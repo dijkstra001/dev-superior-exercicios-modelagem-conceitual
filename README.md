@@ -8,6 +8,8 @@
 - [x] Desenhar o Modelo Conceitual
 - [x] Esboçar uma instância atendendo os requisitos mínimos pedidos
 
+<p> Vou compartilhar aqui os códigos que desenvolvi para implementar as instâncias necessárias em cada exercício.</p>
+
 <h3>Exercício 01:</h3> 
 <p>Deseja-se construir um sistema para manter um registro de artistas musicais e seus
 álbuns. Cada álbum possui várias músicas, as quais poderão ser consultadas pelo sistema. O sistema
