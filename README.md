@@ -1,4 +1,4 @@
-<h1>Workshop de Modelagem Conceitual - Prof. Nelio Alves</h1>
+<h1>Workshop de Modelagem Conceitual</h1>
 <h6> <i>Esses exercícios são de propriedade intelectual do Prof. Nelio Alves | DevSuperior</i></h6>
 <br />
 <h4>Exercícios de Modelagem Conceitual</h4>
