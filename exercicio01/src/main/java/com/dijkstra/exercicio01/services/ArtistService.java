@@ -31,4 +31,17 @@ public class ArtistService {
 		Artist artist = obj.orElseThrow(() -> new ResourceNotFoundException(id));
 		return new ArtistDTO(artist);
 	}
+
+	@Transactional(readOnly = true)
+	public ArtistDTO insert(ArtistDTO artistDTO) {
+		Artist artist = new Artist();
+		copyToDTO(artistDTO, artist);
+		artist = artistRepository.save(artist);
+		return new ArtistDTO(artist);	
+	}
+	
+	private void copyToDTO(ArtistDTO artistDTO, Artist artist) {
+		artist.setName(artistDTO.getName());
+		artist.setNationality(artistDTO.getNationality());
+	}
 }
